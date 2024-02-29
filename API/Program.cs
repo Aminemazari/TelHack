@@ -1,6 +1,7 @@
 using System.Data.Common;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http.HttpResults;
+using InstantAPIs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,9 @@ builder.Services.AddCors(options =>
         });
 });
 
+builder.Services.AddInstantAPIs();
+
+
 var app = builder.Build();
 
 
@@ -29,6 +33,9 @@ if (app.Environment.IsProduction() || app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.MapInstantAPIs<AppDbContext>();
+
 app.UseCors("AllowAll");
 
 app.MapGet("/",()=>{
