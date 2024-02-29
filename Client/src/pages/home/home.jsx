@@ -7,7 +7,7 @@
   import pub2 from "../../assets/pubs2.svg"
   import Navigate from '../../component/navigate.jsx'
   import API_URL from "../../component/API_URL.jsx"
-  import boot from "../../assets/BOOT.svg"
+  import boot from "../../assets/BOOT2.svg"
   import Botchat from "../../component/botchat.jsx"
   const home = () => {
       const [data,setData]=useState([])

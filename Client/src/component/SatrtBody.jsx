@@ -3,7 +3,7 @@ import Boot from '../assets/BOOT2.svg'
 function SatrtBody() {
   return (
     <div className='mt-12 ml-[30%]'>
-       <button> <img src={Boot} alt="" className='fixed ml-[45%] '/></button>
+       <button> <img src={Boot} alt="" className='fixed ml-[45%] mt-[25%] '/></button>
       <h1 className="text-[48px]  text-[#111827] font-['Montserrat'] font-extrabold">Contribute Thorugh <br />Your Startup</h1>
       <p className='text-[18px] text-[#64748B] mt-[24px]'>Filll in the following form with your comapny information <br />
 in addition to your idea </p>
