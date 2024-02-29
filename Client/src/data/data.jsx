@@ -6,10 +6,10 @@ import person4 from "../assets/person4.svg"
 const data=[
 {
     profilePics:person1,
-    postDate:,
-    profileName:,
-    status:,
-    content:,
+    postDate:"",
+    profileName:"",
+    status:"",
+    content:"",
 
 
 
