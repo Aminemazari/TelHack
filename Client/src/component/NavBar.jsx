@@ -3,7 +3,7 @@ import AlgerieTel from '../assets/Algerie.png'
 
 function NavBar() {
   return (
-    <div className='p-4'>
+    <div className='p-4 bg-white' >
       <ul className='flex justify-between items-center'>
         <div>
             
