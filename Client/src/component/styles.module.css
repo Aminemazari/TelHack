@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.navBar{
+    display: flex;
+    height: 75px;
+    padding:  2vw 2vw;  
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 8px 32px 0px rgba(17, 17, 26, 0.05), 0px 4px 16px 0px rgba(17, 17, 26, 0.05);
+    width:auto;
+}
+.logo{
+
+}
+.features{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap:3.4vw;
+}
+.navBar_Button{
+  text-align: center; 
+  color: #404040;
+background-color: inherit;
+position: relative;
+transition: color 0.3s ease;
+color: var(--primery, #023E7D);
+
+/* subtle-medium */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */ 
+}
+.navBar_Button::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.7px;
+    border-radius: 1.35px; 
+    bottom: 0;
+    left: 0;
+    background-color: #023E7D; /* Change this color to your desired underline color */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navBar_Button:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .navBar_Button:active{
+    color: #023E7D;
+  }
+  .profilePics{
+  max-width: 50px;
+}
+.solved{
+  display: flex;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 100px;
+border: 1px solid #367F3E;
+
+/*font*/
+color: var(--secondary, #38B000);
+
+/* body-medium */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+}
+
+.not_solved{
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+border: 1px solid var(--slate-400, #94A3B8);
+}
+
+.post{
+  display: flex;
+  padding: 12px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  flex-shrink: 0;
+  border-radius: 12px;
+background: var(--white, #FFF);
+}
+.profileInfo{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+.personalInfo{
+  display: flex;
+align-items: center;
+gap: 12px;
+}
+.postDate{
+  color: var(--slate-400, #94A3B8);
+
+  /* small */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+}
+.container{
+  display: flex;
+  align-items: center;
+  max-width: 381px;
+  gap: 24px;
+}
+.postContent{
+  color: var(--slate-500, #64748B);
+
+/* p */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.interaction{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 12px;
+flex-shrink: 0;
+align-self: stretch;
+border-top: 1px solid #CBD5E1;;
+}
+.comment_Button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.Answers{
+  color: var(--slate-500, #64748B);
+
+/* body */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.question{
+  display: flex;
+padding: 6px;
+align-items: center;
+gap: 12px;
+border-radius: 12px;
+}
+.likes{
+  display: flex;
+padding: 6px;
+align-items: center;
+gap: 12px;
+border-radius: 12px;
+}
