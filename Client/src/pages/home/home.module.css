@@ -1,0 +1,43 @@
+.home{
+    background: var(--slate-50, #F8FAFC);
+}
+.post{
+    max-width: 595px;
+    background: var(--slate-50, #F8FAFC);
+    padding-top:5vh ;
+    padding-left: 6vw;
+}
+.pop
+.commente{
+    background: #B5B7B9;
+    padding: 18px;
+    border-radius: 12px;
+background: var(--slate-100, #F1F5F9);
+}
+.pub1{
+    position: absolute;
+    right: 10px;
+    top:190px;
+}
+.pub2{
+    position: absolute;
+    right: 10px;
+    top:590px; 
+}
+.Navigation{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonn{
+    padding: 0;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    z-index: 100;
+}
+.boot{
+    width: 200px;
+}

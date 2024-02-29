@@ -1,16 +1,16 @@
 import React from 'react'
-import Styles from "./Style.module.css"
+import Styles from "./styles.module.css"
 import valid from "../assets/valid.svg"
 import NotValid from "../assets/notValid.svg"
 const status = ({status}) => {
-    if (status="Solved"){
+    if (status){
     return (
         <button className={Styles.solved}>solved<img src={valid} className={Styles.valid_img}></img></button>
     )
     }
     else{
         return (
-            <button className={Styles.not_solved}>open<img src={NotValid} className={Styles.not_valid_img}></img></button>
+            <button className={Styles.not_solved}>Open<img src={NotValid} className={Styles.not_valid_img}></img></button>
             )
     }
 

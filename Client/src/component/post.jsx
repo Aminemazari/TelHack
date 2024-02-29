@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from "./Style.module.css"
+import Styles from "./styles.module.css"
 import Status from './status'
 import comment from "../assets/comment.svg"
 import jaime from "../assets/jaime.svg"
@@ -18,8 +18,10 @@ const post = ({profilePics,postDate,profileName,status,content}) => {
             </div>
             <p className={Styles.postDate}>{postDate}</p>
             </div>
+            <div className={Styles.info_of_the_statu}>
            <Status status={status}></Status>
-           <img src={menu} className={Styles.menu}/>
+           <button className={Styles.menu_button}><img src={menu} className={Styles.menu}/></button>
+           </div>
         </section>
         <article className={Styles.postContent}>
             {
@@ -33,8 +35,8 @@ const post = ({profilePics,postDate,profileName,status,content}) => {
             <p className={Styles.Answers}>Answers</p>
             </section>
             <section className={Styles.likes}>
-                <img src={jaime} className={Styles.jaime}></img>
-                <p className={Styles.Answers}>Follow</p>
+            <button className={Styles.comment_Button}> <img src={jaime} className={Styles.jaime}></img></button>
+                <p className={Styles.Answers}>Like</p>
             </section>
         </div>
       

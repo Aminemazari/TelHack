@@ -6,10 +6,10 @@ function LandingPage() {
   return (
     <div className='bg-[#F1F5F9]'>
       
-      <NavBar /> 
+      <NavBar/> 
       <Hero/>
       <Community/>
-    </div>
+    </div> 
   )
 }
 
