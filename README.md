@@ -24,14 +24,12 @@ Thank you for choosing Algeria Telecom Customer Support Platform!
 ## Development Stack
 
 ### Backend
-- **Framework**: ASP.NET 8
-- **Data Layer**: Entity Framework
-- **Database**: PostgreSQL
+- **Framework**: ASP.NET 8 Minimal API
+- **Database & Data Layer**: PostgreSQL with Entity Framework
 
 ### Frontend
 - **Framework**: React.js
-- **UI Framework**: Tailwind CSS
-- **Styling**: CSS
+- **UI Framework & Styling**: Tailwind & row CSS
 
 ### UI/UX Design
 - **Design Tool**: Figma
