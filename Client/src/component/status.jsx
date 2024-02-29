@@ -3,7 +3,7 @@ import Styles from "./Style.module.css"
 import valid from "../assets/valid.svg"
 import NotValid from "../assets/notValid.svg"
 const status = ({status}) => {
-    if (status="solved"){
+    if (status="Solved"){
     return (
         <button className={Styles.solved}>solved<img src={valid} className={Styles.valid_img}></img></button>
     )
