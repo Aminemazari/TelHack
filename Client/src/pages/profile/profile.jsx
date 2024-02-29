@@ -2,6 +2,8 @@ import React from 'react'
 import style from "./profile.module.css"
 import Navbar_Home_Page from '../../component/Navbar_Home_Page'
 import Card from '../../component/card'
+import data from "../../data/data.jsx"
+import Post from '../../component/post.jsx'
 const profile = () => {
   return (
     <div className={style.profile}>
@@ -10,6 +12,19 @@ const profile = () => {
          <Card/>
          </div>
          <div className={style.Post}>
+          
+{
+  data.map((data) => (
+    <Post
+      profilePics={data.profilePics}
+      postDate={data.postDate}
+      profileName={data.profileName}
+      status={data.status}
+      content={data.content}
+    />
+  ))
+}
+          
 
          </div>
       

@@ -45,7 +45,7 @@
               return(
               <div className={Styles.post}>
 
-                  <Post profilePics={data.pictureUrl} postDate={data.publishDateTime} profileName={data.name} status={data.isSolved} content={data.body} />
+                  <Post profilePics={data.user.pictureUrl} postDate={data.publishDateTime} profileName={data.name} status={data.isSolved} content={data.body} />
             {
               data.answers.map((datac)=>{
                 const picture=datac.user.pictureUrl;

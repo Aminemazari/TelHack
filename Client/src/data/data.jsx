@@ -3,11 +3,12 @@ import person1 from "../assets/person1.svg"
 import person2 from "../assets/person2.svg"
 import person3 from "../assets/person3.svg"
 import person4 from "../assets/person4.svg"
+import person from "../assets/Ellipse 1.svg"
 
 const data=[
 {
     id:"01",
-    profilePics:person1,
+    profilePics:person,
     postDate:"24min ago",
     profileName:"Lhaj",
     status:"Open",
@@ -17,21 +18,21 @@ const data=[
 
 },{
     id:"02",
-    profilePics:person2,
+    profilePics:person,
     postDate:"1h ago",
     profileName:"Benouda",
     status:"Solved",
     content:"Algérie Télécom internet keeps dropping calls in mdawroch, making it impossible to have reliable conversations. Frustrating!",
 },{
     id:"03",
-    profilePics:person3,
+    profilePics:person,
     postDate:"2min ago",
     profileName:"Djamel",
     status:"Open",
     content:"Algérie Télécom internet keeps dropping calls in mdawroch, making it impossible to have reliable conversations. Frustrating!",
 },{
     id:"04",
-    profilePics:person4,
+    profilePics:person,
     postDate:"Time",
     profileName:"User name",
     status:"Solved",
@@ -39,7 +40,7 @@ const data=[
 },
 {
     id:"01",
-    profilePics:person1,
+    profilePics:person,
     postDate:"24min ago",
     profileName:"Lhaj",
     status:"Open",
@@ -49,21 +50,21 @@ const data=[
 
 },{
     id:"02",
-    profilePics:person2,
+    profilePics:person,
     postDate:"1h ago",
     profileName:"Benouda",
     status:"Solved",
     content:"Algérie Télécom internet keeps dropping calls in mdawroch, making it impossible to have reliable conversations. Frustrating!",
 },{
     id:"04",
-    profilePics:person3,
+    profilePics:person,
     postDate:"2min ago",
     profileName:"Djamel",
     status:"Open",
     content:"Algérie Télécom internet keeps dropping calls in mdawroch, making it impossible to have reliable conversations. Frustrating!",
 },{
     id:"05",
-    profilePics:person4,
+    profilePics:person,
     postDate:"Time",
     profileName:"User name",
     status:"Solved",
