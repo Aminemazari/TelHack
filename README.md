@@ -13,7 +13,7 @@ Welcome to the Algeria Telecom Customer Support Platform, designed to serve the 
 
 - **Frontend**: Access our platform through [this link](#).
 - **Backend API**: Our backend API is hosted at [https://telhack.fly.dev/](https://telhack.fly.dev/).
-
+- **Frontend **: [web site](https://algeria-telecom-2024.netlify.app/)
 ## Design
 
 Explore the Figma design for our platform [here](https://www.figma.com/file/klgoMUuMqbYUUI481XzTCH/Algerie-Telecom?type=design&node-id=0%3A1&mode=design&t=VF6XNcRzlWZqxoSp-1). 
