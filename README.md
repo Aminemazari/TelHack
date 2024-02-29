@@ -8,8 +8,7 @@ Welcome to the Algeria Telecom Customer Support Platform, designed to serve the 
 
 2. **AI Development**: Data collected from the questions and answers posted on the platform are utilized to develop an AI system capable of answering common and repeated questions, further enhancing customer support services.
 
-3. **NetLocator**: Map tool lets the user know the quality of the internet for each given area, which is helpful when transferring from region to another.
-
+3. *NetLocator**: Map tool lets the user know the quality of the internet for each given location. It provides information such as the max speed reached and the available technologies of connection, along with a ranking from the user. This tool uses real data from users who test connection in that place exactly, which is helpful when transferring from one region to another.
 ## Hosted Platforms
 
 - **Frontend**: Access our platform through [this link](#).
