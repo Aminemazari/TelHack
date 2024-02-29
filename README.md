@@ -11,7 +11,7 @@ Welcome to the Algeria Telecom Customer Support Platform, designed to serve the 
 ## Hosted Platforms
 
 - **Frontend**: Access our platform through [this link](#).
-- **Backend API**: Our backend API is hosted at [telhack.fly.dev](https://telhack.fly.dev/).
+- **Backend API**: Our backend API is hosted at [https://telhack.fly.dev/](https://telhack.fly.dev/).
 
 ## Design
 
@@ -20,3 +20,18 @@ Explore the Figma design for our platform [here](https://www.figma.com/file/klgo
 Feel free to provide feedback and suggestions as we continuously strive to improve our services and user experience.
 
 Thank you for choosing Algeria Telecom Customer Support Platform!
+
+## Development Stack
+
+### Backend
+- **Framework**: ASP.NET 8
+- **Data Layer**: Entity Framework
+- **Database**: PostgreSQL
+
+### Frontend
+- **Framework**: React.js
+- **UI Framework**: Tailwind CSS
+- **Styling**: CSS
+
+### UI/UX Design
+- **Design Tool**: Figma
