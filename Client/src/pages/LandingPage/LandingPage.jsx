@@ -2,6 +2,10 @@ import React from 'react'
 import NavBar from '../../component/NavBar'
 import Hero from '../../component/Hero'
 import Community from '../../component/Community'
+import StartUp from '../../component/StartUp'
+import Footer from '../../component/Footer'
+import BootPresentation from '../../component/BootPresentation'
+import Maps from '../../component/Maps'
 function LandingPage() {  
   return (
     <div className='bg-[#F1F5F9]'>
@@ -9,7 +13,12 @@ function LandingPage() {
       <NavBar/> 
       <Hero/>
       <Community/>
-    </div> 
+      <Maps/>
+      <BootPresentation/>
+      <StartUp/>
+      
+      <Footer/>
+    </div>
   )
 }
 

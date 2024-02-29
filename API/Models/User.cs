@@ -8,9 +8,8 @@ public class User
     public string Name { get; set; }
     public string Email { get; set; }
     public string HashedPassword { get; set; }
+    public string? PictureUrl {get;set;}
 
-    public ICollection<Question> Questions { get; set; } 
-    public ICollection<Answer> Answers  { get; set; }
 }
 
 public class Question
@@ -22,6 +21,10 @@ public class Question
 
     public bool IsSolved { get; set; }
 
+    public DateTime PublishDateTime {get;set;}
+
+    public ICollection<Answer> Answers  { get; set; }
+
 } 
 
 public class Answer
@@ -29,11 +32,13 @@ public class Answer
     [Key]
     public int Id { get; set; }
     public User? User { get; set; }
-    public Question? Question { get; set; }
     public string Body { get; set; }
     public bool IsGeneratedByAI { get; set; }
 
     public int Score { get; set; }
+
+    public DateTime PublishDateTime {get;set;}
+
 }
 
 public class AIChat
