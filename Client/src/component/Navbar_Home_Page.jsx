@@ -1,7 +1,7 @@
 import React from 'react'
 import Styles from "./styles.module.css"
 import logo from "../assets/Algerie.png"
-import profilePics from  "./assets/Ellipse 1.svg"
+import profilePics from  "../assets/Ellipse 1.svg"
 import NavBar_Button from './navBar_button'
 
 const Navbar_Home_Page = () => {
