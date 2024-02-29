@@ -15,6 +15,7 @@ const profile = () => {
           
 {
   data.map((data) => (
+    <div className={style.fix}>
     <Post
       profilePics={data.profilePics}
       postDate={data.postDate}
@@ -22,6 +23,7 @@ const profile = () => {
       status={data.status}
       content={data.content}
     />
+     </div>
   ))
 }
           

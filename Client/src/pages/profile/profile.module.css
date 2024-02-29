@@ -1,6 +1,6 @@
 .profile{
     background: var(--slate-50, #F8FAFC);
-    height: 100vh;
+    height:2000px
 }
 .card{
     padding-top: 30px;
@@ -8,14 +8,16 @@
     justify-content: center;
 }
 .Post{
-    max-width: 500px;
+    max-width: 100%;
     display: flex;
     padding: 24px 12px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 25px;
-    flex-shrink: 0;
     border-radius: 12px;
-background: var(--slate-100, #F1F5F9);
+    background: var(--slate-100, #F1F5F9);
+}
+.fix{
+    max-width:500px ;
 }

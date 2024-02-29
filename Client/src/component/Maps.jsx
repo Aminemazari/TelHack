@@ -1,5 +1,5 @@
 import React from 'react'
-import Map from '../assets/Maps.svg'
+import Map from '../assets/map.png'
 
 function Maps() {
   return (
@@ -12,7 +12,7 @@ function Maps() {
                     GET STARTED
                 </button>
       </div>
-      <img src={Map} alt="" className='ml-[15%] mt-6 rounded-md ' />
+      <img src={Map} alt="" className='ml-[8%] mt-6 rounded-md ' />
     </div>
   )
 }
